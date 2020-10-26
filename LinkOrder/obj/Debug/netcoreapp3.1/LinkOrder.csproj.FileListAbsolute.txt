@@ -1,0 +1,11 @@
+/Users/phongpheera/test_project/TestSolution/LinkOrder/obj/Debug/netcoreapp3.1/LinkOrder.csprojAssemblyReference.cache
+/Users/phongpheera/test_project/TestSolution/LinkOrder/obj/Debug/netcoreapp3.1/LinkOrder.AssemblyInfoInputs.cache
+/Users/phongpheera/test_project/TestSolution/LinkOrder/obj/Debug/netcoreapp3.1/LinkOrder.AssemblyInfo.cs
+/Users/phongpheera/test_project/TestSolution/LinkOrder/bin/Debug/netcoreapp3.1/LinkOrder
+/Users/phongpheera/test_project/TestSolution/LinkOrder/bin/Debug/netcoreapp3.1/LinkOrder.deps.json
+/Users/phongpheera/test_project/TestSolution/LinkOrder/bin/Debug/netcoreapp3.1/LinkOrder.runtimeconfig.json
+/Users/phongpheera/test_project/TestSolution/LinkOrder/bin/Debug/netcoreapp3.1/LinkOrder.runtimeconfig.dev.json
+/Users/phongpheera/test_project/TestSolution/LinkOrder/bin/Debug/netcoreapp3.1/LinkOrder.dll
+/Users/phongpheera/test_project/TestSolution/LinkOrder/bin/Debug/netcoreapp3.1/LinkOrder.pdb
+/Users/phongpheera/test_project/TestSolution/LinkOrder/obj/Debug/netcoreapp3.1/LinkOrder.dll
+/Users/phongpheera/test_project/TestSolution/LinkOrder/obj/Debug/netcoreapp3.1/LinkOrder.pdb

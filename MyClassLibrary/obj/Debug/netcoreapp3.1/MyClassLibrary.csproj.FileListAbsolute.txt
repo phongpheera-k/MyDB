@@ -1,0 +1,9 @@
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/bin/Debug/netcoreapp3.1/MyClassLibrary.deps.json
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/bin/Debug/netcoreapp3.1/MyClassLibrary.dll
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/bin/Debug/netcoreapp3.1/MyClassLibrary.pdb
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/obj/Debug/netcoreapp3.1/MyClassLibrary.csprojAssemblyReference.cache
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/obj/Debug/netcoreapp3.1/MyClassLibrary.AssemblyInfoInputs.cache
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/obj/Debug/netcoreapp3.1/MyClassLibrary.AssemblyInfo.cs
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/obj/Debug/netcoreapp3.1/MyClassLibrary.csproj.CoreCompileInputs.cache
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/obj/Debug/netcoreapp3.1/MyClassLibrary.dll
+/Users/phongpheera/test_project/TestSolution/MyClassLibrary/obj/Debug/netcoreapp3.1/MyClassLibrary.pdb

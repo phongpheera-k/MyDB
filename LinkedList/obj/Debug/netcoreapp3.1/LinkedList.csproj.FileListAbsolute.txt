@@ -1,0 +1,11 @@
+/Users/phongpheera/test_project/TestSolution/LinkedList/bin/Debug/netcoreapp3.1/LinkedList
+/Users/phongpheera/test_project/TestSolution/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.deps.json
+/Users/phongpheera/test_project/TestSolution/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.runtimeconfig.json
+/Users/phongpheera/test_project/TestSolution/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.runtimeconfig.dev.json
+/Users/phongpheera/test_project/TestSolution/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.dll
+/Users/phongpheera/test_project/TestSolution/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.pdb
+/Users/phongpheera/test_project/TestSolution/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.csprojAssemblyReference.cache
+/Users/phongpheera/test_project/TestSolution/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.AssemblyInfoInputs.cache
+/Users/phongpheera/test_project/TestSolution/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.AssemblyInfo.cs
+/Users/phongpheera/test_project/TestSolution/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.dll
+/Users/phongpheera/test_project/TestSolution/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.pdb

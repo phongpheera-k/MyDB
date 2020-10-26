@@ -1,0 +1,11 @@
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.deps.json
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.runtimeconfig.json
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.runtimeconfig.dev.json
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.dll
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.pdb
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.csprojAssemblyReference.cache
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.AssemblyInfo.cs
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.dll
+/Users/phongpheera/test_project/TestSolution/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.pdb

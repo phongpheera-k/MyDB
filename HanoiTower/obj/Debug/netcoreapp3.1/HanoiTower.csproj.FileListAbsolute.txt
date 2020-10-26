@@ -1,0 +1,11 @@
+/Users/phongpheera/test_project/TestSolution/HanoiTower/bin/Debug/netcoreapp3.1/HanoiTower
+/Users/phongpheera/test_project/TestSolution/HanoiTower/bin/Debug/netcoreapp3.1/HanoiTower.deps.json
+/Users/phongpheera/test_project/TestSolution/HanoiTower/bin/Debug/netcoreapp3.1/HanoiTower.runtimeconfig.json
+/Users/phongpheera/test_project/TestSolution/HanoiTower/bin/Debug/netcoreapp3.1/HanoiTower.runtimeconfig.dev.json
+/Users/phongpheera/test_project/TestSolution/HanoiTower/bin/Debug/netcoreapp3.1/HanoiTower.dll
+/Users/phongpheera/test_project/TestSolution/HanoiTower/bin/Debug/netcoreapp3.1/HanoiTower.pdb
+/Users/phongpheera/test_project/TestSolution/HanoiTower/obj/Debug/netcoreapp3.1/HanoiTower.csprojAssemblyReference.cache
+/Users/phongpheera/test_project/TestSolution/HanoiTower/obj/Debug/netcoreapp3.1/HanoiTower.AssemblyInfoInputs.cache
+/Users/phongpheera/test_project/TestSolution/HanoiTower/obj/Debug/netcoreapp3.1/HanoiTower.AssemblyInfo.cs
+/Users/phongpheera/test_project/TestSolution/HanoiTower/obj/Debug/netcoreapp3.1/HanoiTower.dll
+/Users/phongpheera/test_project/TestSolution/HanoiTower/obj/Debug/netcoreapp3.1/HanoiTower.pdb

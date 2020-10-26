@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_MyDB.-709181810.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BinaryTree" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BinaryTree.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BinaryTree.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="DbOnFile" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DbOnFile.csproj" t="IncludeRecursive" />
+        <e p="IndexOnFile.cs" t="Include" />
+        <e p="MyDB" t="Include">
+          <e p=".gitattributes" t="Include" />
+          <e p="README.md" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DbOnFile.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PersonOnFile.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="DbOnMemory" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DbOnMemory.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DbOnMemory.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="HanoiTower" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HanoiTower.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="HanoiTower.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LinkedList" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LinkedList.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LinkedList.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LinkOrder" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LinkOrder.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LinkOrder.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="MyClassLibrary" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CommonServices" t="Include">
+          <e p="CompareService.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="NodeSide.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="ArrayExtensions.cs" t="Include" />
+          <e p="FileBinaryExtensions.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="Person.cs" t="Include" />
+        </e>
+        <e p="MyClassLibrary.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="MyClassLibrary.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="MenuService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MyDB.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

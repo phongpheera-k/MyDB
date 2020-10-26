@@ -1,0 +1,12 @@
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/obj/Debug/netcoreapp3.1/DbOnMemory.csprojAssemblyReference.cache
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/obj/Debug/netcoreapp3.1/DbOnMemory.AssemblyInfoInputs.cache
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/obj/Debug/netcoreapp3.1/DbOnMemory.AssemblyInfo.cs
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/obj/Debug/netcoreapp3.1/DbOnMemory.csproj.CoreCompileInputs.cache
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/bin/Debug/netcoreapp3.1/DbOnMemory.deps.json
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/bin/Debug/netcoreapp3.1/DbOnMemory.runtimeconfig.json
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/bin/Debug/netcoreapp3.1/DbOnMemory.runtimeconfig.dev.json
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/bin/Debug/netcoreapp3.1/DbOnMemory.dll
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/bin/Debug/netcoreapp3.1/DbOnMemory.pdb
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/obj/Debug/netcoreapp3.1/DbOnMemory.dll
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/obj/Debug/netcoreapp3.1/DbOnMemory.pdb
+/Users/phongpheera/test_project/TestSolution/DbOnMemory/obj/Debug/netcoreapp3.1/DbOnMemory.genruntimeconfig.cache
