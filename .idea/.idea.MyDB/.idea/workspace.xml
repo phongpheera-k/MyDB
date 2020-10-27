@@ -15,6 +15,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DbOnMemory/Program.cs" />
+        <option value="$PROJECT_DIR$/DbOnFile/IndexOnFile.cs" />
+        <option value="$PROJECT_DIR$/MyClassLibrary/CommonServices/CompareService.cs" />
+        <option value="$PROJECT_DIR$/DbOnFile/PersonOnFile.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1jR9EX8tvVAhi01sa5eT8Qq16Pb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -143,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603755925457</updated>
-      <workItem from="1603755941609" duration="364000" />
+      <workItem from="1603755941609" duration="7590000" />
     </task>
     <servers />
   </component>

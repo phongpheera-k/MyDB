@@ -56,7 +56,7 @@ namespace DbOnFile
                         runing = false;
                         Console.WriteLine("Sayonara Bye bye");
                         Console.WriteLine("----------------");
-                        db.Disconncect();
+                        db.Disconnect();
                         break;
                     default:
                         Console.WriteLine("I don't got it");

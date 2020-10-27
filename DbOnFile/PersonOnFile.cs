@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using MyClassLibrary.CommonServices;
 using MyClassLibrary.Extensions;
 using MyClassLibrary.Model;
 
@@ -27,16 +28,19 @@ namespace DbOnFile
         public string Folder { get; set; } = "File";
 
         FileStream DbStream;
+        IndexOnFile<int, int> idIndex = new IndexOnFile<int, int>(CompareService.CompareInt, ConvertService.ConvertInt, ConvertService.TransformInt);
+        IndexOnFile<string, int> nameIndex = new IndexOnFile<string, int>(CompareService.CompareString, ConvertService.ConvertString, ConvertService.TransfromString);
+        IndexOnFile<int, int> ageIndex = new IndexOnFile<int, int>(CompareService.CompareInt, ConvertService.ConvertInt, ConvertService.TransformInt);
 
         public PersonOnFile(Encoding encoding)
         {
             Encode = encoding;
             Directory.CreateDirectory(Folder);
             DbStream = File.Open(Path.Combine(Folder, DbFileName), FileMode.OpenOrCreate);
-            // idIndexStream = File.Open(Path.Combine(Folder, IdIndexFileName), FileMode.OpenOrCreate);
-            // nameIndexStream = File.Open(Path.Combine(Folder, NameIndexFileName), FileMode.OpenOrCreate);
-            // AgeIndexStream = File.Open(Path.Combine(Folder, AgeIndexFileName), FileMode.OpenOrCreate);
             BlockSize = GetBlockSize();
+            idIndex.SetIndex(Folder, IdIndexFileName, sizeof(int), Encode);
+            nameIndex.SetIndex(Folder, NameIndexFileName, NameSize * EncodeByte[Encode], Encode);
+            ageIndex.SetIndex(Folder, AgeIndexFileName, sizeof(int), Encode);
         }
 
         public PersonOnFile(Encoding encoding, int nameSize) : this(encoding)
@@ -44,12 +48,9 @@ namespace DbOnFile
             NameSize = nameSize;
         }
 
-        public void Disconncect()
+        public void Disconnect()
         {
             DbStream.Close();
-            // idIndexStream.Close();
-            // nameIndexStream.Close();
-            // AgeIndexStream.Close();
         }
 
         byte[] ToBytes(Person person)
@@ -69,7 +70,6 @@ namespace DbOnFile
         int Length => (int) (DbStream.Length / BlockSize);
 
         int GetFileOffset(int num) => num * BlockSize;
-        int GetIndexOffset(int num) => num * sizeof(int);
 
         Person ToPerson(byte[] data)
         {

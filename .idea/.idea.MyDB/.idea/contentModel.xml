@@ -20,10 +20,6 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DbOnFile.csproj" t="IncludeRecursive" />
         <e p="IndexOnFile.cs" t="Include" />
-        <e p="MyDB" t="Include">
-          <e p=".gitattributes" t="Include" />
-          <e p="README.md" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

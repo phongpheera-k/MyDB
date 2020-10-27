@@ -4,7 +4,7 @@ namespace MyClassLibrary.CommonServices
 {
     public static class CompareService
     {
-        static readonly Func<int, int, int> CompareInt = (x, y) =>
+        public static readonly Func<int, int, int> CompareInt = (x, y) =>
         {
             if (x > y)
                 return 1;
@@ -14,6 +14,6 @@ namespace MyClassLibrary.CommonServices
                 return 0;
         };
         
-        static readonly Func<string, string, int> CompareString = string.Compare;
+        public static readonly Func<string, string, int> CompareString = string.Compare;
     }
 }
