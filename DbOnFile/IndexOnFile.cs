@@ -7,7 +7,7 @@ using MyClassLibrary.Extensions;
 
 namespace DbOnFile
 {
-    public class IndexOnFile<TK> : IComparer<TK>
+    public class IndexOnFile<TK>
     {
         public MyNode<TK> Header { get; set; } = new MyNode<TK>();
         public string FileName { get; set; } = string.Empty;
@@ -55,15 +55,15 @@ namespace DbOnFile
 
         int GetLastOrder => (int)(indexStream.Position / BlockSize);
         int GetIndexOffset(int num)  => num * BlockSize;
-
-        public int Compare(TK x, TK y)
+        
+        int Compare(TK x, TK y)
         {
             if (x is null || y is null)
                 throw new ArgumentNullException();
             else
                 return compareWorker(x, y);
         }
-
+        
         void WarmUpIndexHeader()
         {
             if (indexStream.Length > 0)
