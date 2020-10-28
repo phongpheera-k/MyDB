@@ -82,6 +82,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="CommonServices" t="Include">
           <e p="CompareService.cs" t="Include" />
+          <e p="ConvertService.cs" t="Include" />
         </e>
         <e p="Enums" t="Include">
           <e p="NodeSide.cs" t="Include" />

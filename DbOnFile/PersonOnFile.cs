@@ -28,9 +28,9 @@ namespace DbOnFile
         public string Folder { get; set; } = "File";
 
         FileStream DbStream;
-        IndexOnFile<int, int> idIndex = new IndexOnFile<int, int>(CompareService.CompareInt, ConvertService.ConvertInt, ConvertService.TransformInt);
-        IndexOnFile<string, int> nameIndex = new IndexOnFile<string, int>(CompareService.CompareString, ConvertService.ConvertString, ConvertService.TransfromString);
-        IndexOnFile<int, int> ageIndex = new IndexOnFile<int, int>(CompareService.CompareInt, ConvertService.ConvertInt, ConvertService.TransformInt);
+        IndexOnFile<int> idIndex = new IndexOnFile<int>(CompareService.CompareInt, ConvertService.ConvertInt, ConvertService.TransformInt);
+        IndexOnFile<string> nameIndex = new IndexOnFile<string>(CompareService.CompareString, ConvertService.ConvertString, ConvertService.TransfromString);
+        IndexOnFile<int> ageIndex = new IndexOnFile<int>(CompareService.CompareInt, ConvertService.ConvertInt, ConvertService.TransformInt);
 
         public PersonOnFile(Encoding encoding)
         {
@@ -90,6 +90,12 @@ namespace DbOnFile
 
             DbStream.Seek(0, SeekOrigin.End);
             DbStream.Write(data, 0, BlockSize);
+            
+            //--indexing--
+            var valueOrder = (int)(DbStream.Position / BlockSize);
+            idIndex.Indexing(person.Id, valueOrder);
+            nameIndex.Indexing(person.Name, valueOrder);
+            ageIndex.Indexing(person.Age, valueOrder);
         }
 
         public Person SelectData(int num)
@@ -149,6 +155,34 @@ namespace DbOnFile
             }
 
             return result >= 0 ? SelectData(result) : null;
+        }
+
+        public Person SearchIndexById(int id)
+        {
+            var nums = idIndex.SearchNode(id);
+            return SelectData(nums[0]);
+        }
+
+        public Person[] SearchIndexByName(string name)
+        {
+            var nums = nameIndex.SearchNode(name);
+            var persons = new Person[nums.Length];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                persons[i] = SelectData(nums[i]);
+            }
+            return persons;
+        }
+
+        public Person[] SearchIndexByAge(int age)
+        {
+            var nums = ageIndex.SearchNode(age);
+            var persons = new Person[nums.Length];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                persons[i] = SelectData(nums[i]);
+            }
+            return persons;
         }
     }
 }

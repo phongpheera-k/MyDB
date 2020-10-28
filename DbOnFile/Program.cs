@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using MyClassLibrary.Extensions;
 using MyClassLibrary.Model;
 using MyClassLibrary.Services;
 
@@ -49,8 +50,20 @@ namespace DbOnFile
                         Console.WriteLine("----------------");
                         break;
                     case "4":
+                        var nameFromSearch = menu.InputString("Input name:");
+                        var personSearchName = db.SearchIndexByName(nameFromSearch);
+                        if (personSearchName.Length == 0)
+                            Console.WriteLine("Name not found");
+                        else
+                            personSearchName.Display();
                         break;
                     case "5":
+                        var ageFromSearch = menu.InputNumber("Input age:");
+                        var personSearchAge = db.SearchIndexByAge(ageFromSearch);
+                        if (personSearchAge.Length == 0)
+                            Console.WriteLine("Age not found");
+                        else
+                            personSearchAge.Display();
                         break;
                     case "q":
                         runing = false;

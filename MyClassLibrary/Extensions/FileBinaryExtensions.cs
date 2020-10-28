@@ -10,6 +10,14 @@ namespace MyClassLibrary.Extensions
             return BitConverter.GetBytes(input);
         }
 
+        // public static byte[] ToBytes(this int? input)
+        // {
+        //     if (expr)
+        //     {
+        //         
+        //     }
+        // }
+
         public static byte[] ToBytes(this string input, Encoding encoding)
         {
             return encoding.GetBytes(input);

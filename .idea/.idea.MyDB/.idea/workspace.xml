@@ -19,9 +19,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DbOnMemory/Program.cs" />
-        <option value="$PROJECT_DIR$/DbOnFile/IndexOnFile.cs" />
         <option value="$PROJECT_DIR$/MyClassLibrary/CommonServices/CompareService.cs" />
+        <option value="$PROJECT_DIR$/MyClassLibrary/CommonServices/ConvertService.cs" />
+        <option value="$PROJECT_DIR$/MyClassLibrary/Extensions/FileBinaryExtensions.cs" />
+        <option value="$PROJECT_DIR$/MyClassLibrary/Extensions/ArrayExtensions.cs" />
+        <option value="$PROJECT_DIR$/DbOnFile/Program.cs" />
         <option value="$PROJECT_DIR$/DbOnFile/PersonOnFile.cs" />
+        <option value="$PROJECT_DIR$/DbOnFile/IndexOnFile.cs" />
       </list>
     </option>
   </component>
@@ -31,11 +35,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29993778" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.BinaryTree">
+  <component name="RunManager" selected=".NET Project.DbOnFile">
     <configuration name="BinaryTree" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -153,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603755925457</updated>
-      <workItem from="1603755941609" duration="7590000" />
+      <workItem from="1603755941609" duration="33739000" />
     </task>
     <servers />
   </component>
@@ -164,5 +170,91 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="417" height="464" key="DebuggerActiveHint" timestamp="1603846013516">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="417" height="464" key="DebuggerActiveHint/0.23.1680.963@0.23.1680.963" timestamp="1603846013516" />
+    <state width="1638" height="338" key="GridCell.Tab.0.bottom" timestamp="1603846109910">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1603846109910" />
+    <state width="1638" height="338" key="GridCell.Tab.0.center" timestamp="1603846109909">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1603846109909" />
+    <state width="1638" height="338" key="GridCell.Tab.0.left" timestamp="1603846109909">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1603846109909" />
+    <state width="1638" height="338" key="GridCell.Tab.0.right" timestamp="1603846109910">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1603846109910" />
+    <state width="1638" height="338" key="GridCell.Tab.1.bottom" timestamp="1603846109911">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1603846109911" />
+    <state width="1638" height="338" key="GridCell.Tab.1.center" timestamp="1603846109911">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1603846109911" />
+    <state width="1638" height="338" key="GridCell.Tab.1.left" timestamp="1603846109910">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1603846109910" />
+    <state width="1638" height="338" key="GridCell.Tab.1.right" timestamp="1603846109911">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1603846109911" />
+    <state width="1638" height="338" key="GridCell.Tab.2.bottom" timestamp="1603846109912">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.2.bottom/0.23.1680.963@0.23.1680.963" timestamp="1603846109912" />
+    <state width="1638" height="338" key="GridCell.Tab.2.center" timestamp="1603846109912">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.2.center/0.23.1680.963@0.23.1680.963" timestamp="1603846109912" />
+    <state width="1638" height="338" key="GridCell.Tab.2.left" timestamp="1603846109911">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.2.left/0.23.1680.963@0.23.1680.963" timestamp="1603846109911" />
+    <state width="1638" height="338" key="GridCell.Tab.2.right" timestamp="1603846109912">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.2.right/0.23.1680.963@0.23.1680.963" timestamp="1603846109912" />
+    <state width="1638" height="338" key="GridCell.Tab.3.bottom" timestamp="1603846109913">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.3.bottom/0.23.1680.963@0.23.1680.963" timestamp="1603846109913" />
+    <state width="1638" height="338" key="GridCell.Tab.3.center" timestamp="1603846109912">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.3.center/0.23.1680.963@0.23.1680.963" timestamp="1603846109912" />
+    <state width="1638" height="338" key="GridCell.Tab.3.left" timestamp="1603846109912">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.3.left/0.23.1680.963@0.23.1680.963" timestamp="1603846109912" />
+    <state width="1638" height="338" key="GridCell.Tab.3.right" timestamp="1603846109913">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.3.right/0.23.1680.963@0.23.1680.963" timestamp="1603846109913" />
+    <state width="1638" height="338" key="GridCell.Tab.4.bottom" timestamp="1603846109914">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.4.bottom/0.23.1680.963@0.23.1680.963" timestamp="1603846109914" />
+    <state width="1638" height="338" key="GridCell.Tab.4.center" timestamp="1603846109913">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.4.center/0.23.1680.963@0.23.1680.963" timestamp="1603846109913" />
+    <state width="1638" height="338" key="GridCell.Tab.4.left" timestamp="1603846109913">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.4.left/0.23.1680.963@0.23.1680.963" timestamp="1603846109913" />
+    <state width="1638" height="338" key="GridCell.Tab.4.right" timestamp="1603846109914">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="338" key="GridCell.Tab.4.right/0.23.1680.963@0.23.1680.963" timestamp="1603846109914" />
   </component>
 </project>

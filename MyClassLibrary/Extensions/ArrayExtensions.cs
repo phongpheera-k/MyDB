@@ -31,5 +31,21 @@ namespace MyClassLibrary.Extensions
             Array.Copy(array, offSet, result, 0, length);
             return result;
         }
+
+        public static int[] Add(this int[] array, int[] data)
+        {
+            var result = new int[array.Length + data.Length];
+            Array.Copy(array, 0, result, 0, array.Length);
+            Array.Copy(data, 0, result, array.Length, data.Length);
+            return result;
+        }
+
+        public static int[] Add(this int[] array, int data)
+        {
+            var result = new int[array.Length + 1];
+            Array.Copy(array, 0, result, 0, array.Length);
+            result[array.Length] = data;
+            return result;
+        }
     }
 }
